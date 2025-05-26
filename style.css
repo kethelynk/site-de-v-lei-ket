@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #009688;
+    padding: 20px 0;
+    color: white;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#intro {
+    background-color: #e0f2f1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#intro h2 {
+    font-size: 36px;
+}
+
+#sobre {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+#sobre h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    text-align: justify;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+#galeria {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+#galeria h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#noticias {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+#noticias h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.news article {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news article p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.news article a {
+    text-decoration: none;
+    color: #009688;
+    font-weight: bold;
+}
+
+#contato {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+#contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contato form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contato form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#contato form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contato form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #009688;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
